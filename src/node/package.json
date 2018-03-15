@@ -1,0 +1,19 @@
+{
+  "name": "multistage-nodejs",
+  "version": "0.9.0",
+  "description": "Docker multistage build NodeJS application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Rueth <arueth@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {}
+}
